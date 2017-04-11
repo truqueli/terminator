@@ -1,2 +1,3 @@
-# terminator
-Use for fork 
+# Terminator
+
+**Use for fork**
