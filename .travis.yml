@@ -1,6 +1,6 @@
 language: cpp
 compiler:
--g++
+ - g++
 sudo: required
 dist: trusty
 before_script:
@@ -8,4 +8,4 @@ before_script:
   -cd build
   -cmake --version
   -cmake -DCMAKE_VERBOSE_MAKEFILE=ON ..
-  script: make
+script: make
